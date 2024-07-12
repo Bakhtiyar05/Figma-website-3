@@ -1,1 +1,1 @@
-№# SignIn, SignUp və Account səhifələri sayt daxilində linklərə verilib.
+## SignIn, SignUp və Account səhifələri sayt daxilində linklərə verilib.
