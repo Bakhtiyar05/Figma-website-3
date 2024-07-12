@@ -1,0 +1,107 @@
+#signin {
+    margin: 50px auto;
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+.containerSignin {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.accountSettings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    padding: 10px;
+    background-color: #F3F5F7;
+
+    .userAvatar {
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+    
+    img {
+        width: 70px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+
+        li {
+
+            a {
+                color: gray;
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+.desktopAccountSettings {
+    display: block;
+}
+
+.mobileAccountSettings {
+    display: none;
+}
+
+.accountForm {
+    width: 100% !important;
+
+    i {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    input {
+        border: 1px solid rgba(108, 108, 108, 0.283) !important;
+        border-radius: 5px;
+        padding: 10px !important;
+    }
+    
+}
+
+
+@media ( max-width: 768px ) {
+
+    .containerSignin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        gap: 30px;
+    }
+
+    .desktopAccountSettings {
+        display: none !important;
+    }
+    
+    .mobileAccountSettings {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .accountSettings {
+        p, hr {
+            display: none;
+        }
+    }
+
+}
